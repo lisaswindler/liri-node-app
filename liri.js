@@ -1,6 +1,7 @@
 require("dotenv").config();
 var axios = require('axios');
 var fs = require("fs");
+var moment = require('moment');
 var command = process.argv[2];
 
 // Movies
@@ -59,20 +60,23 @@ function movieThis() {
 // Concerts
 function concertThis() {
     // Takes in artist input
-    var artist = process.argv.slice(3).join(" ");
-    // Assigns a default if no input is given
-    // ?
+    if (typeof process.argv[3] !== "undefined") {
+        var artist = process.argv.slice(3).join(" ");
+    } else {
+        // Defaults to "The Wombats" if no artist is given
+        var artist = "the wombats";
+    }
     var concertQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
     axios.get(concertQueryUrl).then(
         function (response) {
             var d = response.data;
             // Returns a list of concerts by the artist
             for (var i = 0; i < d.length; i++) {
-                console.log("Artist: " + artist.toUpperCase() +
+                console.log("Artist: " + d[0].artist.name +
                     "\nVenue: " + d[i].venue.name +
                     "\nLocation: " + d[i].venue.location +
-                    // Use moment to format date
-                    "\nDate: " + d[i].datetime +
+                    // Moment formats date as MM/DD/YYYY
+                    "\nDate: " + moment(d[i].datetime).format('L') +
                     // Line for separation
                     "\n-------------------------------------");
             }
@@ -102,7 +106,7 @@ function spotifyThis() {
         var song = process.argv.slice(3).join(" ");
     } else {
         // Defaults to "The Sign" by Ace of Base if no song is given
-        var song = "thesign";
+        var song = "the sign";
     }
     var keys = require("./keys.js");
     var Spotify = require('node-spotify-api');
@@ -113,7 +117,7 @@ function spotifyThis() {
             return console.log('Error occurred: ' + err);
         }
         // Only returns one song if default
-        if (song === "thesign" || song === "I Want it That Way") {
+        if (song === "the sign" || song === "I Want it That Way") {
             var d = data.tracks.items[0];
             console.log("Artist: " + d.album.artists[0].name +
                 "\nSong: " + d.name +

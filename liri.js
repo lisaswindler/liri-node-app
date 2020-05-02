@@ -19,24 +19,34 @@ function movieThis() {
             var d = response.data;
             // If rotten tomatoes rating is not available
             if (d.Ratings.length < 1) {
-                console.log("Title: " + d.Title +
-                    "\nYear: " + d.Year +
-                    "\nIMDB Rating: " + d.imdbRating +
-                    "\nRotten Tomatoes: Not found" +
-                    "\nCountry: " + d.Country +
-                    "\nLanguage: " + d.Language +
-                    "\nPlot: " + d.Plot +
-                    "\nActors: " + d.Actors)
+                var movieInfo =
+                "\nTitle: " + d.Title +
+                "\nYear: " + d.Year +
+                "\nIMDB Rating: " + d.imdbRating +
+                "\nRotten Tomatoes: Not found" +
+                "\nCountry: " + d.Country +
+                "\nLanguage: " + d.Language +
+                "\nPlot: " + d.Plot +
+                "\nActors: " + d.Actors +
+                "\n-------------------------------------";
+                console.log(movieInfo);
+                fs.appendFile("log.txt", movieInfo, (err) => {    
+                })
             } else {
-                // If rotten tomatoes rating is available
-                console.log("Title: " + d.Title +
-                    "\nYear: " + d.Year +
-                    "\nIMDB Rating: " + d.imdbRating +
-                    "\nRotten Tomatoes: " + d.Ratings[1].Value +
-                    "\nCountry: " + d.Country +
-                    "\nLanguage: " + d.Language +
-                    "\nPlot: " + d.Plot +
-                    "\nActors: " + d.Actors)
+            // If rotten tomatoes rating is available
+                var movieInfo = 
+                "\nTitle: " + d.Title +
+                "\nYear: " + d.Year +
+                "\nIMDB Rating: " + d.imdbRating +
+                "\nRotten Tomatoes: " + d.Ratings[1].Value +
+                "\nCountry: " + d.Country +
+                "\nLanguage: " + d.Language +
+                "\nPlot: " + d.Plot +
+                "\nActors: " + d.Actors +
+                "\n-------------------------------------";
+                console.log(movieInfo);
+                fs.appendFile("log.txt", movieInfo, (err) => {    
+                })
             }
         })
         // Returns an error if there is one
@@ -63,8 +73,8 @@ function concertThis() {
     if (typeof process.argv[3] !== "undefined") {
         var artist = process.argv.slice(3).join(" ");
     } else {
-        // Defaults to "The Wombats" if no artist is given
-        var artist = "the wombats";
+        // Default if no artist is given
+        var artist = "fitz and the tantrums";
     }
     var concertQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
     axios.get(concertQueryUrl).then(
@@ -72,13 +82,16 @@ function concertThis() {
             var d = response.data;
             // Returns a list of concerts by the artist
             for (var i = 0; i < d.length; i++) {
-                console.log("Artist: " + d[0].artist.name +
-                    "\nVenue: " + d[i].venue.name +
-                    "\nLocation: " + d[i].venue.location +
-                    // Moment formats date as MM/DD/YYYY
-                    "\nDate: " + moment(d[i].datetime).format('L') +
-                    // Line for separation
-                    "\n-------------------------------------");
+                var concertInfo = 
+                "\nArtist: " + d[0].artist.name +
+                "\nVenue: " + d[i].venue.name +
+                "\nLocation: " + d[i].venue.location +
+                // Moment formats date as MM/DD/YYYY
+                "\nDate: " + moment(d[i].datetime).format('L') +
+                "\n-------------------------------------";
+                console.log(concertInfo);
+                fs.appendFile("log.txt", concertInfo, (err) => {    
+                })
             }
         })
         // Returns an error if there is one
@@ -116,29 +129,37 @@ function spotifyThis() {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
-        // Only returns one song if default
-        if (song === "the sign" || song === "I Want it That Way") {
+        // Only returns one song if default or if random.txt file is used
+        if (song === "the sign" || process.argv[2] === "do-what-it-says") {
             var d = data.tracks.items[0];
-            console.log("Artist: " + d.album.artists[0].name +
-                "\nSong: " + d.name +
-                "\nAlbum: " + d.album.name +
-                "\nLink: " + d.external_urls.spotify);
+            var songInfo = 
+            "\nArtist: " + d.album.artists[0].name +
+            "\nSong: " + d.name +
+            "\nAlbum: " + d.album.name +
+            "\nLink: " + d.external_urls.spotify +
+            "\n-------------------------------------";
+            console.log(songInfo);
+            fs.appendFile("log.txt", songInfo, (err) => {    
+            })
         } else {
             // Returns up to 5 songs with same name
             for (i = 0; i < 5; i++) {
                 var d = data.tracks.items[i];
-                console.log("Artist: " + d.album.artists[0].name +
-                    "\nSong: " + d.name +
-                    "\nAlbum: " + d.album.name +
-                    "\nLink: " + d.external_urls.spotify +
-                    // Line for separation
-                    "\n-------------------------------------");
+                var songInfo =
+                "\nArtist: " + d.album.artists[0].name +
+                "\nSong: " + d.name +
+                "\nAlbum: " + d.album.name +
+                "\nLink: " + d.external_urls.spotify +
+                "\n-------------------------------------";
+                console.log(songInfo);
+                fs.appendFile("log.txt", songInfo, (err) => {    
+                })
             }
         }
     });
 };
 
-// Random
+// Random.txt data
 function doWhatItSays() {
     // Gets the text from random.txt
     fs.readFile("random.txt", "utf8", function (err, data) {

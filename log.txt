@@ -201,3 +201,143 @@ Song: I Want It That Way
 Album: The Hits--Chapter One
 Link: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
 -------------------------------------
+Artist: Backstreet Boys
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Link: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+-------------------------------------
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/02/2020
+-------------------------------------
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/03/2020
+-------------------------------------
+Artist: Ace of Base
+Song: The Sign
+Album: The Sign
+Link: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+-------------------------------------
+Title: Mr Nobody
+Year: 2018
+IMDB Rating: N/A
+Rotten Tomatoes: Not found
+Country: UK
+Language: English
+Plot: Ryan Nobody leaves behind a powerful message to the world after taking his own life.
+Actors: Nathan Hackett
+-------------------------------------
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/03/2020
+-------------------------------------
+Title: Moulin Rouge!
+Year: 2001
+IMDB Rating: 7.6
+Rotten Tomatoes: 76%
+Country: Australia, USA
+Language: English, French, Spanish
+Plot: A poet falls for a beautiful courtesan whom a jealous duke covets.
+Actors: Nicole Kidman, Ewan McGregor, John Leguizamo, Jim Broadbent
+-------------------------------------
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/03/2020
+-------------------------------------
+Artist: Taylor Swift
+Venue: [POSTPONED] Allianz Parque | São Paulo
+Location: São Paulo, Brazil
+Date: 07/18/2020
+-------------------------------------
+Artist: Taylor Swift
+Venue: [POSTPONED] Lover Fest West
+Location: Los Angeles, CA
+Date: 07/25/2020
+-------------------------------------
+Artist: Taylor Swift
+Venue: [POSTPONED] Allianz Parque | São Paulo
+Location: São Paulo, Brazil
+Date: 07/19/2020
+-------------------------------------
+Artist: Taylor Swift
+Venue: [POSTPONED] Lover Fest West
+Location: Los Angeles, CA
+Date: 07/26/2020
+-------------------------------------
+Artist: Taylor Swift
+Venue: [POSTPONED] Lover Fest East
+Location: Foxborough, MA
+Date: 07/31/2020
+-------------------------------------
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/03/2020
+-------------------------------------
+Artist: Ace of Base
+Song: The Sign
+Album: The Sign
+Link: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+-------------------------------------
+Title: Mr Nobody
+Year: 2018
+IMDB Rating: N/A
+Rotten Tomatoes: Not found
+Country: UK
+Language: English
+Plot: Ryan Nobody leaves behind a powerful message to the world after taking his own life.
+Actors: Nathan Hackett
+-------------------------------------
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/03/2020
+-------------------------------------
+Artist: Childish Gambino
+Song: Feels Like Summer
+Album: Summer Pack
+Link: https://open.spotify.com/track/7p4vHnYXkxlzvfePJVpcTr
+-------------------------------------
+Artist: Weezer
+Song: Feels Like Summer
+Album: Pacific Daydream
+Link: https://open.spotify.com/track/2jz1bw1p0WQj0PDnVDP0uY
+-------------------------------------
+Artist: Vince Staples
+Song: Feels Like Summer
+Album: FM!
+Link: https://open.spotify.com/track/5zEeiQbazUWskpZNhnh6i2
+-------------------------------------
+Artist: Panama Wedding
+Song: Feels Like Summer
+Album: Parallel Play
+Link: https://open.spotify.com/track/2kq16dVA6PMOonToIIeJSy
+-------------------------------------
+Artist: Various Artists
+Song: Feels Like Summer
+Album: Liquid Drum & Bass Sessions 2020 Vol 10
+Link: https://open.spotify.com/track/1QAiKDpVGZBZrpxtWagJVs
+-------------------------------------
+Title: Jojo Rabbit
+Year: 2019
+IMDB Rating: 7.9
+Rotten Tomatoes: 79%
+Country: New Zealand, Czech Republic, USA
+Language: English, German
+Plot: A young boy in Hitler's army finds out his mother is hiding a Jewish girl in their home.
+Actors: Roman Griffin Davis, Thomasin McKenzie, Scarlett Johansson, Taika Waititi
+-------------------------------------
+Title: Frozen II
+Year: 2019
+IMDB Rating: 7.0
+Rotten Tomatoes: 77%
+Country: USA
+Language: English
+Plot: Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.
+Actors: Kristen Bell, Idina Menzel, Josh Gad, Jonathan Groff
+-------------------------------------

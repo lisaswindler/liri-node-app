@@ -24,7 +24,7 @@ If you've ever wanted to tune out the noise of a google search and focus on the 
 ## How to use LIRI:
 1. Open terminal or bash
 2. Navigate to the folder where LIRI is stored on your computer.
-3. Type in "node liri.js (command from above choices) (artist, movie, or song name)" **See example screenshot below**
+3. Type in "node liri [command from above choices] [artist, movie, or song name]" **See example screenshot below**
 
 ![Movie-this example](images/godzilla.png)
 *Did you know Walter White is in Godzilla? 'Cause I didn't. LIRI is a genius!*

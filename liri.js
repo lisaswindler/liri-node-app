@@ -3,11 +3,12 @@ var axios = require('axios');
 var fs = require("fs");
 var moment = require('moment');
 var command = process.argv[2];
+var term = process.argv[3];
 
 // Movies
 function movieThis() {
-    // takes in movie input
-    if (typeof process.argv[3] !== "undefined") {
+    // takes in movie input if it exists
+    if (term) {
         var movieName = process.argv.slice(3).join(" ");
     } else {
         // defaults to "Mr. Nobody" if no movie is given
@@ -30,7 +31,10 @@ function movieThis() {
                 "\nActors: " + d.Actors +
                 "\n-------------------------------------";
                 console.log(movieInfo);
-                fs.appendFile("log.txt", movieInfo, (err) => {    
+                fs.appendFile("log.txt", movieInfo, (err) => { 
+                    if (err) {
+                        return console.log(err)
+                    }   
                 })
             } else {
             // If rotten tomatoes rating is available
@@ -45,7 +49,10 @@ function movieThis() {
                 "\nActors: " + d.Actors +
                 "\n-------------------------------------";
                 console.log(movieInfo);
-                fs.appendFile("log.txt", movieInfo, (err) => {    
+                fs.appendFile("log.txt", movieInfo, (err) => {  
+                    if (err) {
+                        return console.log(err)
+                    }  
                 })
             }
         })
@@ -69,8 +76,8 @@ function movieThis() {
 
 // Concerts
 function concertThis() {
-    // Takes in artist input
-    if (typeof process.argv[3] !== "undefined") {
+    // Takes in artist input if it exists
+    if (term) {
         var artist = process.argv.slice(3).join(" ");
     } else {
         // Default if no artist is given
@@ -90,8 +97,11 @@ function concertThis() {
                 "\nDate: " + moment(d[i].datetime).format('L') +
                 "\n-------------------------------------";
                 console.log(concertInfo);
-                fs.appendFile("log.txt", concertInfo, (err) => {    
-                })
+                fs.appendFile("log.txt", concertInfo, (err) => {  
+                    if (err) {
+                        return console.log(err)
+                    }
+                });
             }
         })
         // Returns an error if there is one
@@ -114,8 +124,8 @@ function concertThis() {
 
 // Songs
 function spotifyThis() {
-    // Takes in song input
-    if (typeof process.argv[3] !== "undefined") {
+    // Takes in song input if it exists
+    if (term) {
         var song = process.argv.slice(3).join(" ");
     } else {
         // Defaults to "The Sign" by Ace of Base if no song is given
@@ -140,6 +150,9 @@ function spotifyThis() {
             "\n-------------------------------------";
             console.log(songInfo);
             fs.appendFile("log.txt", songInfo, (err) => {    
+                if (err) {
+                    return console.log(err)
+                }
             })
         } else {
             // Returns up to 5 songs with same name
@@ -152,7 +165,10 @@ function spotifyThis() {
                 "\nLink: " + d.external_urls.spotify +
                 "\n-------------------------------------";
                 console.log(songInfo);
-                fs.appendFile("log.txt", songInfo, (err) => {    
+                fs.appendFile("log.txt", songInfo, (err) => {  
+                    if (err) {
+                        return console.log(err)
+                    }  
                 })
             }
         }
@@ -175,11 +191,9 @@ function doWhatItSays() {
             case "movie-this":
                 movieThis();
                 break;
-
             case "concert-this":
                 concertThis();
                 break;
-
             case "spotify-this-song":
                 spotifyThis();
                 break;
@@ -192,15 +206,12 @@ switch (command) {
     case "movie-this":
         movieThis();
         break;
-
     case "concert-this":
         concertThis();
         break;
-
     case "spotify-this-song":
         spotifyThis();
         break;
-
     case "do-what-it-says":
         doWhatItSays();
         break;

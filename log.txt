@@ -1,11 +1,12 @@
-Title: Jumanji
-Year: 1995
-IMDB Rating: 7.0
-Rotten Tomatoes: 54%
-Country: USA
-Language: English, French
-Plot: When two kids find and play a magical board game, they release a man trapped in it for decades--and a host of dangers that can only be stopped by finishing the game.
-Actors: Robin Williams, Jonathan Hyde, Kirsten Dunst, Bradley Pierce
+
+Title: What We Do in the Shadows
+Year: 2014
+IMDB Rating: 7.7
+Rotten Tomatoes: 96%
+Country: New Zealand
+Language: English, German, Spanish, Latin
+Plot: Viago, Deacon and Vladislav are vampires who are finding that modern life has them struggling with the mundane - like paying rent, keeping up with the chore wheel, trying to get into nightclubs and overcoming flatmate conflicts.
+Actors: Jemaine Clement, Taika Waititi, Jonny Brugh, Cori Gonzalez-Macuer
 -------------------------------------
 Title: Mr Nobody
 Year: 2018
@@ -15,61 +16,6 @@ Country: UK
 Language: English
 Plot: Ryan Nobody leaves behind a powerful message to the world after taking his own life.
 Actors: Nathan Hackett
--------------------------------------
-Artist: Fitz & The Tantrums
-Venue: Streaming LIVE
-Location: 
-Date: 05/01/2020
--------------------------------------
-Artist: Fitz & The Tantrums
-Venue: BeachLife Festival
-Location: Redondo Beach, CA
-Date: 05/02/2020
--------------------------------------
-Artist: Fitz & The Tantrums
-Venue: BeachLife Festival
-Location: Redondo Beach, CA
-Date: 05/03/2020
--------------------------------------
-Artist: Ace of Base
-Song: The Sign
-Album: The Sign
-Link: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
--------------------------------------
-Artist: Backstreet Boys
-Song: I Want It That Way
-Album: The Hits--Chapter One
-Link: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
--------------------------------------
-Artist: Sub Urban
-Song: Cradles
-Album: Cradles
-Link: https://open.spotify.com/track/1y4jsQt7MjnZhiD1L6qFBC
--------------------------------------
-Artist: Besomorph
-Song: Cradles
-Album: Cradles
-Link: https://open.spotify.com/track/2PnFla1dCxZuMOUvVdW6Pz
--------------------------------------
-Artist: Rob Thomas
-Song: Cradlesong
-Album: cradlesong
-Link: https://open.spotify.com/track/30ENVe5FjaTgx6JoHzgSLr
--------------------------------------
-Artist: Dario D'Aversa
-Song: Cradles - Piano Version
-Album: Cradles (Piano Version)
-Link: https://open.spotify.com/track/06Y5Cb0i6Q8Brt7DT3l666
--------------------------------------
-Artist: Thomas Vee
-Song: Cradles
-Album: Top Pop 2020
-Link: https://open.spotify.com/track/5mwosnq809rBIQwFrxYilD
--------------------------------------
-Artist: The Wombats
-Venue: Streaming LIVE
-Location: 
-Date: 04/30/2020
 -------------------------------------
 Artist: The Wombats
 Venue: Victoria Park
@@ -86,28 +32,172 @@ Venue: Neighbourhood Weekender 2020
 Location: Warrington, United Kingdom
 Date: 09/06/2020
 -------------------------------------
-Artist: Major Lazer
-Song: Be Together
-Album: Peace Is The Mission (Extended)
-Link: https://open.spotify.com/track/3Vv6L434w4rmsaZ6PGfC0E
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/02/2020
 -------------------------------------
-Artist: Major Lazer
-Song: Be Together - Vanic Remix
-Album: Peace Is The Mission (Extended)
-Link: https://open.spotify.com/track/2GTqKxuBr7LKhEpRtR38tm
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/03/2020
 -------------------------------------
-Artist: Zaza
-Song: Be Together
-Album: Be Together
-Link: https://open.spotify.com/track/7sBNTjuERmSmn2grtPGa5q
+Artist: Sub Urban
+Song: Cradles
+Album: Cradles
+Link: https://open.spotify.com/track/1y4jsQt7MjnZhiD1L6qFBC
 -------------------------------------
-Artist: NI-NI
-Song: Be Together
-Album: Mermaid
-Link: https://open.spotify.com/track/1FYCLgd1XDdqulxDX5JB3W
+Artist: Rob Thomas
+Song: Cradlesong
+Album: cradlesong
+Link: https://open.spotify.com/track/30ENVe5FjaTgx6JoHzgSLr
 -------------------------------------
-Artist: Diana Ross & The Supremes
-Song: Someday We'll Be Together
-Album: Cream Of The Crop
-Link: https://open.spotify.com/track/79Yk6AlSKi5dxDFINID2hS
+Artist: Besomorph
+Song: Cradles
+Album: Cradles
+Link: https://open.spotify.com/track/2PnFla1dCxZuMOUvVdW6Pz
+-------------------------------------
+Artist: Thomas Vee
+Song: Cradles
+Album: Top Pop 2020
+Link: https://open.spotify.com/track/5mwosnq809rBIQwFrxYilD
+-------------------------------------
+Artist: Dario D'Aversa
+Song: Cradles - Piano Version
+Album: Cradles (Piano Version)
+Link: https://open.spotify.com/track/06Y5Cb0i6Q8Brt7DT3l666
+-------------------------------------
+Artist: Ace of Base
+Song: The Sign
+Album: The Sign
+Link: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+-------------------------------------
+Artist: Backstreet Boys
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Link: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+-------------------------------------
+Title: Warm Bodies
+Year: 2013
+IMDB Rating: 6.9
+Rotten Tomatoes: 81%
+Country: USA, Canada
+Language: English
+Plot: After a highly unusual zombie saves a still-living girl from an attack, the two form a relationship that sets in motion events that might transform the entire lifeless world.
+Actors: Nicholas Hoult, Teresa Palmer, Analeigh Tipton, Rob Corddry
+-------------------------------------
+Title: Mr Nobody
+Year: 2018
+IMDB Rating: N/A
+Rotten Tomatoes: Not found
+Country: UK
+Language: English
+Plot: Ryan Nobody leaves behind a powerful message to the world after taking his own life.
+Actors: Nathan Hackett
+-------------------------------------
+Artist: Ace of Base
+Song: The Sign
+Album: The Sign
+Link: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
+-------------------------------------
+Title: Jumanji
+Year: 1995
+IMDB Rating: 7.0
+Rotten Tomatoes: 54%
+Country: USA
+Language: English, French
+Plot: When two kids find and play a magical board game, they release a man trapped in it for decades--and a host of dangers that can only be stopped by finishing the game.
+Actors: Robin Williams, Jonathan Hyde, Kirsten Dunst, Bradley Pierce
+-------------------------------------
+Title: Interstellar
+Year: 2014
+IMDB Rating: 8.6
+Rotten Tomatoes: 72%
+Country: USA, UK, Canada
+Language: English
+Plot: A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.
+Actors: Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow
+-------------------------------------
+Title: Godzilla
+Year: 2014
+IMDB Rating: 6.4
+Rotten Tomatoes: 75%
+Country: USA, Japan
+Language: English, Japanese
+Plot: The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.
+Actors: Aaron Taylor-Johnson, CJ Adams, Ken Watanabe, Bryan Cranston
+-------------------------------------
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/02/2020
+-------------------------------------
+Artist: Fitz & The Tantrums
+Venue: BeachLife Festival
+Location: Redondo Beach, CA
+Date: 05/03/2020
+-------------------------------------
+Artist: Dido
+Song: Thank You
+Album: No Angel
+Link: https://open.spotify.com/track/751gBcu62kORDelX7FV0mM
+-------------------------------------
+Artist: My Chemical Romance
+Song: Thank You for the Venom
+Album: Three Cheers for Sweet Revenge
+Link: https://open.spotify.com/track/0BpKPyXhWsTaWkgXeOd1Sn
+-------------------------------------
+Artist: Organic Julia
+Song: Thank You Belize
+Album: Belizian Dreams
+Link: https://open.spotify.com/track/5fYu80LdYcCk16IbREOrv3
+-------------------------------------
+Artist: VIZE
+Song: Thank You [Not So Bad]
+Album: Thank You [Not So Bad]
+Link: https://open.spotify.com/track/4AqN8IdKCfItCSbuaFch81
+-------------------------------------
+Artist: Bonnie Raitt
+Song: Thank You - Remastered
+Album: Bonnie Raitt (Remastered Version)
+Link: https://open.spotify.com/track/2zLIjfjQ8kMy7WSSLmF0I2
+-------------------------------------
+Artist: Bon Jovi
+Song: Have A Nice Day
+Album: Have A Nice Day
+Link: https://open.spotify.com/track/06Zz2l7cVTCTgCNDe1bnEF
+-------------------------------------
+Artist: Stereophonics
+Song: Have A Nice Day
+Album: Just Enough Education To Perform
+Link: https://open.spotify.com/track/6JWddKPdqvDc2WkPEi9grC
+-------------------------------------
+Artist: Mr. P
+Song: Have a nice day
+Album: You
+Link: https://open.spotify.com/track/0j55i235Z369M9USNCz7f8
+-------------------------------------
+Artist: World Order
+Song: HAVE A NICE DAY
+Album: HAVE A NICE DAY
+Link: https://open.spotify.com/track/584Om3nCZMNItTCpTsfNZH
+-------------------------------------
+Artist: Abatement Around
+Song: Have a Nice Day
+Album: Have a Nice Day
+Link: https://open.spotify.com/track/4veKy0xfyCrxO3FbJxd8sP
+-------------------------------------
+Title: Warm Bodies
+Year: 2013
+IMDB Rating: 6.9
+Rotten Tomatoes: 81%
+Country: USA, Canada
+Language: English
+Plot: After a highly unusual zombie saves a still-living girl from an attack, the two form a relationship that sets in motion events that might transform the entire lifeless world.
+Actors: Nicholas Hoult, Teresa Palmer, Analeigh Tipton, Rob Corddry
+-------------------------------------
+Artist: Backstreet Boys
+Song: I Want It That Way
+Album: The Hits--Chapter One
+Link: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
 -------------------------------------

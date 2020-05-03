@@ -2,20 +2,22 @@ require("dotenv").config();
 var axios = require('axios');
 var fs = require("fs");
 var moment = require('moment');
+var keys = require("./keys.js");
+var Spotify = require('node-spotify-api');
+var spotify = new Spotify(keys.spotify);
 var command = process.argv[2];
-var term = process.argv[3];
 
 // Movies
 function movieThis() {
     // takes in movie input if it exists
-    if (term) {
+    if (process.argv[3]) {
         var movieName = process.argv.slice(3).join(" ");
     } else {
         // defaults to "Mr. Nobody" if no movie is given
         var movieName = "mr nobody";
     }
-    var movieQueryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&tomatoes&apikey=trilogy";
-    axios.get(movieQueryUrl).then(
+    var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&tomatoes&apikey=trilogy";
+    axios.get(queryUrl).then(
         function (response) {
             var d = response.data;
             // If rotten tomatoes rating is not available
@@ -30,12 +32,6 @@ function movieThis() {
                 "\nPlot: " + d.Plot +
                 "\nActors: " + d.Actors +
                 "\n-------------------------------------";
-                console.log(movieInfo);
-                fs.appendFile("log.txt", movieInfo, (err) => { 
-                    if (err) {
-                        return console.log(err)
-                    }   
-                })
             } else {
             // If rotten tomatoes rating is available
                 var movieInfo = 
@@ -48,13 +44,13 @@ function movieThis() {
                 "\nPlot: " + d.Plot +
                 "\nActors: " + d.Actors +
                 "\n-------------------------------------";
-                console.log(movieInfo);
+            }
+            console.log(movieInfo);
                 fs.appendFile("log.txt", movieInfo, (err) => {  
                     if (err) {
                         return console.log(err)
                     }  
                 })
-            }
         })
         // Returns an error if there is one
         .catch(function (error) {
@@ -77,14 +73,14 @@ function movieThis() {
 // Concerts
 function concertThis() {
     // Takes in artist input if it exists
-    if (term) {
+    if (process.argv[3]) {
         var artist = process.argv.slice(3).join(" ");
     } else {
         // Default if no artist is given
         var artist = "fitz and the tantrums";
     }
-    var concertQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
-    axios.get(concertQueryUrl).then(
+    var queryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
+    axios.get(queryUrl).then(
         function (response) {
             var d = response.data;
             // Returns a list of concerts by the artist
@@ -125,15 +121,12 @@ function concertThis() {
 // Songs
 function spotifyThis() {
     // Takes in song input if it exists
-    if (term) {
+    if (process.argv[3]) {
         var song = process.argv.slice(3).join(" ");
     } else {
         // Defaults to "The Sign" by Ace of Base if no song is given
         var song = "the sign";
     }
-    var keys = require("./keys.js");
-    var Spotify = require('node-spotify-api');
-    var spotify = new Spotify(keys.spotify);
     spotify.search({ type: 'track', query: song }, function (err, data) {
         // Returns an error if there is one
         if (err) {
